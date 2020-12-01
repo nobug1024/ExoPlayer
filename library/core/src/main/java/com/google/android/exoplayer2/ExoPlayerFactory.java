@@ -90,6 +90,8 @@ public final class ExoPlayerFactory {
       Context context, TrackSelector trackSelector, LoadControl loadControl) {
     RenderersFactory renderersFactory = new DefaultRenderersFactory(context);
     return newSimpleInstance(context, renderersFactory, trackSelector, loadControl);
+
+
   }
 
   /** @deprecated Use {@link SimpleExoPlayer.Builder} instead. */
